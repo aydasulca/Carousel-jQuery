@@ -1,11 +1,20 @@
-/*
-.img-carousel{
+.img-slider{
   width: 300px;
   height: 300px;
-  background-size: cover;
-  visibility: hidden;
 }
-ul{
-  text-decoration: none;
+div.galeria-slider{
+  position: absolute;
+  white-space: nowrap;
 }
-*/
+ul.slider-img{
+  list-style-type: none;
+}
+li.lista-img{
+  display: inline-block;
+}
+div.container{
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+}
