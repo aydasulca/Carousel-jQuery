@@ -33,6 +33,6 @@ $( () => {
   function autoSlide() {
     setInterval(function() {
       moverD();
-    }, 5000);
+    }, 6000);
   } autoSlide();
 })

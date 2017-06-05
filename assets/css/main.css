@@ -75,6 +75,10 @@ h1{
   display: inline-block;
   width: 15px;
   height: 15px;
-  background-color: grey;
+  border: 1px solid grey;
   border-radius: 20px;
+}
+.circle:hover, .circle-select{
+  background-color: grey;
+  cursor: pointer;
 }
